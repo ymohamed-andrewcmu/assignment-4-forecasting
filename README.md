@@ -1,25 +1,5 @@
-# 🎈 Blank app template
+# Shop sales forecast
 
-A simple Streamlit app template for you to modify!
+A Streamlit app for Project 4 in ML for Business Applications. It fits Prophet to the course's fictional daily shop sales, estimates U.S. holiday effects as a percentage of trend, and compares the result with the class model on the final 60 days.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
-
-### How to run it on your own machine
-
-Prerequisite: install `uv` if you don't already have it.
-
-```
-$ curl -LsSf https://astral.sh/uv/install.sh | sh
-```
-
-1. Sync the dependencies
-
-   ```
-   $ uv sync
-   ```
-
-2. Run the app
-
-   ```
-   $ uv run streamlit run streamlit_app.py
-   ```
+Install the packages in requirements.txt and run `streamlit run streamlit_app.py`.
